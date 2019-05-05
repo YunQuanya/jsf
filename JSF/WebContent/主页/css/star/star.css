@@ -1,0 +1,206 @@
+
+.gymFooterAdd{
+    width: 100%;
+    float: right;
+    text-align: left;
+    background: #f5f6f8;
+    padding: 30px;
+    box-sizing: border-box;
+    display: block;
+    cursor: pointer;
+}
+.gymFooterAdd p:nth-child(1){
+   font-size: 20px;
+   color:#333;
+   margin-top: 50px;
+}
+
+.gymFooterAdd p:nth-child(2){
+    font-size: 16px;
+    color:#a1a4b2;
+    line-height: 25px;
+}
+.gymFooterAdd p:nth-child(3){
+    margin: 30px 0 0 ;
+    width:80px;
+    height:34px;
+    border:1px solid #dbdbdb;
+    line-height: 34px;
+    text-align: center;
+    background:  url(../../images/index/arrow.png) no-repeat 50% 50%;
+}
+.gymFooterAdd p:nth-child(3) span{
+   width:30px;
+}
+.gymFooterAdd:hover p:nth-child(3){
+    background:  url(../../images/index/arrowW.png) no-repeat 50% 50% #34c86c;
+}
+.shopList .col-md-4 a,.shopList .col-md-4 a img{
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+}
+.shopList .col-md-4{
+  height: 285px;
+  padding: 0;
+}
+.gymFooterAdd{
+  position: relative;
+}
+
+/*向左*/
+.triangle_border_left{
+    width:0;
+    height:0;
+    border-width:20px 20px 20px 0;
+    border-style:solid;
+    border-color:transparent #f5f6f8 transparent transparent;
+    position: absolute;
+    left: -20px;
+    top: 50%;
+    margin-top: -10px;
+    z-index: 99;
+}
+/*向右*/
+.triangle_border_right{
+    width:0;
+    height:0;
+    border-width:20px 0 20px 20px;
+    border-style:solid;
+    border-color:transparent transparent transparent #f5f6f8;
+    position: absolute;
+    right: -20px;
+    top: 50%;
+    margin-top: -10px;
+    z-index: 99;
+}
+/*向上*/
+.triangle_border_up{
+    width:0;
+    height:0;
+    border-width:0 20px 20px;
+    border-style:solid;
+    border-color:transparent transparent #f5f6f8;
+    position: absolute;
+    top: -20px;
+    left: 50%;
+    margin-left: -10px;
+    z-index: 99;
+}
+
+/*table*/
+.shopTableList thead tr th,.shopTableList tbody tr td{
+  text-align: center;
+  font-size: 18px;
+  line-height: 45px;
+}
+.shopTableList tbody td{
+  font-size: 16px;
+  color: #666;
+}
+
+.hiddenStyle{
+  display: block;
+}
+.showStyle{
+  display: none;
+}
+
+/*notebook media*/
+/* notebook*/
+@media (min-width: 1200px) and (max-width: 1350px) {
+  .shopList .col-md-4{
+    height: 200px;
+  }
+  .gymFooterAdd p:nth-child(1){
+    margin-top: 0;
+  }
+  .gymFooterAdd p:nth-child(1){
+    font-size: 18px;
+  }
+  .gymFooterAdd p:nth-child(2){
+    font-size: 12px;
+    line-height: 20px;
+  }
+  .gymFooterAdd p:nth-child(3){
+    margin-top: 20px;
+  }
+  .triangle_border_left{
+    border-width:10px 10px 10px 0;
+    left: -10px;
+  }
+  .triangle_border_right{
+    border-width: 20px 0 20px 20px;
+    right: -10px;
+  }
+  .triangle_border_up{
+    top: -10px;
+  }
+
+}
+/* 横向放置的手机和竖向放置的平板之间的分辨率
+@media (max-width: 767px) {
+}*/
+
+@media(max-width:979px){
+  .gymFooterAdd{
+    padding: 10px;
+  }
+  .gymFooterAdd p:nth-child(1){
+    font-size: 14px;
+    margin-top: 0;
+  }
+  .gymFooterAdd p:nth-child(2){
+    font-size: 12px;
+    line-height: 20px;
+  }
+  .shopList .col-md-4{
+    height: 190px;
+    margin-bottom: 10px;
+  }
+  .gymFooterAdd p:nth-child(3) {
+    margin: 0;
+  }
+  .shopTableList thead tr th, .shopTableList tbody tr td{
+    font-size: 12px;
+  }
+  .hiddenStyle{
+    display: none;
+  }
+  .showStyle{
+    display: block;
+  }
+
+
+}
+/* 平板电脑和小屏电脑之间的分辨率 */
+@media (min-width: 768px) and (max-width: 979px) {
+    .shopList .col-md-4{
+      height: 220px;
+      margin-bottom: 0;
+    }
+    .hiddenStyle{
+      display: block!important;
+    }
+    .showStyle{
+      display: none!important;
+    }
+}
+
+
+/* 横向放置的手机及分辨率更小的设备 */
+@media (max-width: 360px) {
+  .gymFooterAdd p:nth-child(1) {
+      font-size: 13px;
+      margin: 0 0 4px;
+      font-weight: bold;
+  }
+  .gymFooterAdd p:nth-child(2) {
+      line-height: 16px;
+  }
+  .gymFooterAdd p:nth-child(3) {
+      width: 60px;
+      height: 28px;
+  }
+
+}

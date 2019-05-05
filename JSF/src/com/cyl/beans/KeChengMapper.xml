@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!-- Dao接口的 路径 -->
+<mapper namespace="com.cyl.dao.KeChengDao">
+	<!-- 取得用户列表  id 对应接口中的方法  resultType   返回数据类型    parameterType 参数数据类型-->
+	<select id="query"    resultType="KeCheng"   parameterType="KeCheng">
+		select
+		k.Kid,
+		k.Kname,
+		k.Ktime,
+		k.Knum,
+		k.Klaoshi,
+		k.KJieShao,
+		k.Kweek,
+		J.Jid,
+		J.Jname,
+		J.Jage,
+		J.Jsex,
+		J.JJieShao,
+		J.Jmoney,
+		J.Jphone
+		from kecheng as k left join jiaolian as j on
+		k.Klaoshi=j.Jname
+
+		<!-- 		<where>
+			<if test="username != null and password != null">
+				username =#{username} and password =#{password}
+			</if>
+			<if test="id!=null">
+				and id=#{id}
+			</if>
+		</where> -->
+	</select>
+	
+	<select id="queryById"    resultType="KeCheng"   parameterType="KeCheng">
+		select
+		k.Kid,
+		k.Kname,
+		k.Ktime,
+		k.Knum,
+		k.Klaoshi,
+		k.KJieShao,
+		k.Kweek,
+		J.Jid,
+		J.Jname,
+		J.Jage,
+		J.Jsex,
+		J.JJieShao,
+		J.Jmoney,
+		J.Jphone
+		from kecheng as k left join jiaolian as j on
+		k.Klaoshi=j.Jname
+		<where>
+			<if test="Kid!=null">
+			k.Kid=#{Kid}
+			</if>
+		</where>
+		<!-- 		<where>
+			<if test="username != null and password != null">
+				username =#{username} and password =#{password}
+			</if>
+			<if test="id!=null">
+				and id=#{id}
+			</if>
+		</where> -->
+	</select>
+	
+	
+
+	
+</mapper>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

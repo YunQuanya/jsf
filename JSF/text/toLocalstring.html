@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+<script>
+    var a=[1,1,2,3,4,5,3,9,2,4];
+    var c=[];
+    var map=new Map();
+    for(var b=0;b<a.length;b++){
+        if(map.has(a[b])){
+            c.push(a[b])
+        }
+        map.set(a[b],b);
+    }
+    console.log(map);
+    console.log(c);
+    c.sort();
+    console.log(c);
+    var sum=0;
+    function f(arr,a,b) {
+        for(var d=0;d<arr.length;d++){
+            id(b>+d>=a){
+                sum+=arr[d];
+            }
+        }
+
+    }
+</script>
+</html>

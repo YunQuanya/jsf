@@ -1,0 +1,260 @@
+    body {
+      font-family: 'arial'!important;
+    }
+
+    a:hover {
+      text-decoration: none;
+    }
+
+    a:link {
+      text-decoration: none;
+    }
+
+    a:visited {
+      text-decoration: none;
+    }
+
+    a:active {
+      text-decoration: none;
+    }
+    .activeAdd{
+      color:red;
+    }
+    ul li {
+      list-style: none;
+    }
+
+    ul li a:hover {
+      text-decoration: none;
+    }
+
+    .img {
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+      background-position: center center;
+    }
+
+    .boxS {
+      box-sizing: border-box;
+    }
+
+    .impact {
+      font-family: "Impact";
+    }
+    /* 加入我们公共弹窗样式 */
+
+    .selectpickerCont {
+      width: 95%!important;
+      height: 49px!important;
+      border: 1px solid #ccc!important;
+      color: #9d9d9d!important;
+      background:#fff;
+    }
+    .selectpickerContIndex {
+      width: 95%!important;
+      height: 48px!important;
+      border: 1px solid #ccc!important;
+      color: #9d9d9d!important;
+      background: #fff;
+    }
+    .root {
+      max-width: 1030px;
+      margin: 0 auto;
+      background: #fff;
+    }
+
+    .rootNew {
+      max-width: 1230px;
+      margin: 0 auto;
+      background: #fff;
+    }
+
+    .commonheaderLogo {
+      width: 124px;
+      height: 20px;
+      display: block;
+    }
+
+    .boder_no {
+      border: none;
+      background: rgba(0, 0, 0, 0);
+    }
+   /* //头部样式的修改 */
+    .navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
+        background-color: #fff;
+    }
+    .contentPid{
+      display: none!important;
+    }
+    .commonNav {
+      width: 100%;
+      background-color: #fff;
+    }
+
+    .commonheaderNav {
+      border: none;
+      width: 100%;
+      background-color:#fff;
+      border-bottom: 1px solid #e7e7e7;
+    }
+    /* .navbar-inverse .navbar-nav > li > a:hover,
+     .navbar-inverse .navbar-nav > li > a:link,
+     .navbar-inverse .navbar-nav > li > a:visited,
+     .navbar-inverse .navbar-nav > li > a:focus,
+     .navbar-inverse .navbar-nav > li > a:active {
+      color: #34c86c!important;
+    } */
+    .commonheaderNav .container {
+      position: relative;
+      z-index: 99;
+      background-color: #fff;
+      color: #a1a4b2;
+    }
+
+    .commonheaderNav .commonNavUl-list {
+      left: 0;
+      right: 0;
+      width: auto !important;
+      margin: auto !important;
+      background-color: #fff;
+      padding: 0;
+      opacity: 0.9;
+      color: #a1a4b2;
+    }
+
+    .commonheaderNav .commonNavUl-list li a {
+      color: #a1a4b2;
+      height: 50px;
+      line-height: 50px;
+      padding: 0;
+    }
+
+    .commonheaderNav .dropdown-menu {
+      min-width: 120px;
+      text-align: center;
+    }
+
+    .commonheaderNav .dropdown-menu li a:hover,
+    .commonheaderNav .dropdown-menu li a:focus {
+      color: #fff;
+      background-color: #34c86c;
+    }
+
+    .commonheaderNav .nav>li>a {
+      padding: 20px 25px;
+    }
+    .navbar-inverse .navbar-nav>li>a:focus {
+        color: #9d9d9d!important;
+        background-color: transparent;
+    }
+    .commonheaderNav .nav>li>a:hover,.commonheaderNav .nav>li>a:hover {
+      color: #34c86c!important;
+    }
+    .navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
+      color: #9d9d9d!important;
+      background-color: #fff!important;
+    }
+
+    .logo-Liking {
+      padding: 0;
+      margin: 0;
+    }
+
+    .logo-Liking a {
+      background: url(../../images/commonImg/headerLogo.png) no-repeat center 125%;
+      background-size: auto;
+      text-indent: -999px;
+    }
+
+    .commonBody .jumbotron {
+      border-radius: 0;
+    }
+
+    .commonSecond {
+      width: 100%;
+      max-width: 1000px;
+      overflow: hidden;
+      background: #F2F2F2;
+      margin: 60px auto 0;
+      color: #f2f2f2!important;
+      font-size: 14px!important;
+    }
+
+    .commonSecond li {
+      padding: 0 5px;
+      height: 45px;
+      box-sizing: border-box;
+      float: left;
+    }
+
+    .commonSecond li a {
+      line-height: 45px;
+      font-size: 14px;
+      color: #4A4A4A;
+    }
+
+    .commonSecond li a span {
+      padding-left: 5px;
+    }
+
+    #scrollUp {
+      background: url(../../images/commonImg/top.png);
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+      background-position: center center;
+      bottom: 20px;
+      right: 25px;
+      overflow: hidden;
+      width: 46px;
+      height: 46px;
+      text-indent: -999px;
+    }
+    /*页面小手*/
+
+    .btn-primary-style {
+      position: fixed;
+      right: 20px;
+      top: 260px;
+      z-index: 999
+    }
+
+    .hand2 {
+      display: none;
+    }
+    /*公用tittle*/
+
+    .gymHeader {
+      width: 100%;
+      height: 280px;
+      position: relative;
+    }
+    .gymHeader p{
+      font-family: 'impact';
+    }
+    .gymHeader p:nth-child(1) {
+      text-align: center;
+      color: #eeeff4;
+      font-size: 40px;
+      padding-top: 100px;
+      margin-bottom: -34px;
+      letter-spacing: 6px;
+    }
+
+    .gymHeader p:nth-child(2) {
+      text-align: center;
+      color: #33C76B;
+      font-size: 34px;
+      font-weight: 600;
+    }
+
+    .gymHeader p:nth-child(2)::after {
+      content: '';
+      height: 6px;
+      width: 40px;
+      background: #34c86c;
+      position: absolute;
+      left: 50%;
+      margin: 85px 0 0 -20px;
+    }
+    /* 公用弹出窗的样式 */
+    /*弹窗*/

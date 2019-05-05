@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!-- Dao接口的 路径 -->
+<mapper namespace="com.cyl.dao.JiaoLianDao">
+	<!-- 取得用户列表  id 对应接口中的方法  resultType   返回数据类型    parameterType 参数数据类型-->
+	<select id="query"    resultType="JiaoLian"   parameterType="JiaoLian">
+		select
+		Jid,
+		Jname,
+		Jage,
+		Jsex,
+		JJieShao,
+		Jmoney,
+		Jphone
+		from jiaolian
+		<!-- 		<where>
+			<if test="username != null and password != null">
+				username =#{username} and password =#{password}
+			</if>
+			<if test="id!=null">
+				and id=#{id}
+			</if>
+		</where> -->
+	</select>
+	
+	
+
+	
+</mapper>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

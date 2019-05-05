@@ -1,0 +1,155 @@
+
+.copyRight{
+  margin: 30px 0 0;
+}
+.footerContainer{
+  width: 100%;
+}
+.borderT{
+  border-top: 1px solid #e7e7e7;
+  padding-top: 30px;
+}
+.footerNav{
+  width: 100%;
+  text-align: left;
+}
+.footerLogo{
+    width: 150px;
+    height: 85px;
+    margin-top: 30px;
+}
+.footerNavTittle{
+  width: 100%;
+  height: 55px;
+  line-height: 55px;
+  color: #333;
+  font-size: 16px;
+  padding-left: 40px;
+  box-sizing: border-box;
+}
+.footerNav li a{
+  font-size: 14px;
+  color: #999;
+  line-height: 28px;
+}
+.phoneNumber{
+  color: #333;
+  font-size: 30px;
+  line-height: 30px;
+  font-family: 'arial'
+}
+.copyRight{
+  width: 100%;
+  height: 70px;
+  color: #999;
+  font-size: 12px;
+  line-height: 30px;
+  background-color: #f5f6f8;
+  display: table;
+  padding: 20px 0;
+  box-sizing: border-box;
+}
+.copyRight span{
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  margin: 0 auto
+}
+.copyRight a,a:hover,a:link,a:visited,a:active{
+    color: #999;
+}
+.commonWidthMedia{
+  width: 1200px;
+  margin: 0 auto;
+}
+.footerNavTittleXS{
+    padding-left: 0
+}
+/*居中1200适配*/
+/* notebook*/
+@media (max-width:1350px){
+    .commonWidthMedia{
+      width: 1000px;
+    }
+}
+/* 平板电脑和小屏电脑之间的分辨率 */
+@media (min-width: 768px) and (max-width: 979px) {
+    .commonWidthMedia{
+      width: 90%;
+    }
+    .footerNavTittleXS,.phoneNumber {
+        width: 100%;
+    }
+    .footerLogo {
+      width: 110px;
+      height: 65px;
+      margin-top: 40px;
+    }
+    .commonWidthMedia .footerNavTittleXS, .commonWidthMedia .phoneNumber{
+      padding: 0;
+      width: 100%;
+      text-align: left;
+    }
+}
+
+/* 横向放置的手机和竖向放置的平板之间的分辨率 */
+@media (max-width: 767px) {
+    .commonWidthMedia{
+      width: 90%;
+    }
+}
+
+@media(max-width:979px){
+    .footerContainer .col-xs-12{
+      text-align: center;
+    }
+    .footerNavTittle,.footerNav{
+      text-align: left;
+      padding-left: 20px;
+    }
+    .footerNavTittleXS,.phoneNumber {
+        padding: 0;
+        width: 30%;
+        float: left;
+        text-align: right;
+    }
+    .phoneNumber {
+      width: 70%;
+      line-height: 55px;
+      text-align: left;
+      padding-left: 20px;
+      box-sizing: border-box;
+    }
+}
+
+/* 横向放置的手机及分辨率更小的设备 */
+@media (max-width: 480px) {
+    .footerNavTittle,.footerNav{
+      padding-left: 10px;
+      box-sizing: border-box;
+    }
+    .copyRight{
+      margin: 10px 0 0;
+    }
+    .borderT{padding-top: 10px;}
+    .footerNavTittle{
+      font-size: 14px;
+      line-height: 30px;
+      height: 30PX;
+    }
+    .footerNav li a{
+      font-size: 12px;
+    }
+    .phoneNumber{
+      font-size: 20px;
+      height: 30px;
+      line-height: 30px;
+    }
+    .footerContainer .col-xs-4{
+      padding: 0 5px;
+    }
+    .copyRight{
+      padding: 10px;
+      line-height: 20px;
+    }
+}

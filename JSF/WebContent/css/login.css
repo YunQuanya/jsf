@@ -1,0 +1,11 @@
+.container{
+    width: 800px;
+}
+.title{
+    font-size: 30px;
+    margin-top: 150px;
+    text-align: center;
+}
+form{
+    margin-top: 60px;
+}

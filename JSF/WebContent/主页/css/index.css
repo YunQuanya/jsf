@@ -1,0 +1,350 @@
+body{
+    font-family: 'Microsoft Yahei'!important
+}
+.rootVideo {
+    max-width: 1230px;
+    margin: 0 auto;
+    background: #fff;
+}
+.prism-ErrorMessage{
+    display:none!important
+ }
+
+input,.button-style {
+    -webkit-appearance: none;
+    padding: 0;
+    outline: none;
+    border: none;
+}
+.video{
+   cursor: pointer;
+   position: relative;
+}
+.videoIcon{
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  bottom: 20%;
+  left: 50%;
+  margin-left: -30px;
+}
+/* 健身房场馆 */
+.shopLink{
+    display:block;
+}
+.gymHeader p:nth-child(1){
+    text-align: center;
+    color: #eeeff4;
+    font-size: 40px;
+    font-family: 'impact';
+    padding-top: 100px;
+    margin-bottom: -34px;
+    letter-spacing :6px;
+}
+.gymHeader p:nth-child(2){
+    text-align: center;
+    color: #33C76B;
+    font-size: 34px;
+    font-family: 'impact';
+    font-weight:600;
+}
+.gymHeaderLine{
+    height:6px;
+    width:40px;
+    background: #34c86c;
+    margin:45px  auto 100px auto;
+}
+.gymFooterCont{
+    width:100%;
+}
+.gymFooter{
+    width:90%;
+    height:355px;
+    background: #f5f6f8;
+    float: right;
+    position: relative;
+    margin-bottom:100px;
+    border:3px solid #fff;
+}
+.gymFooter:hover,.gymFooter1:hover{
+    border:3px solid #34c86c;
+    box-shadow: 5px 5px 10px #eaf9ef;
+    background: #fff;
+}
+.gymFooter:hover .gymFooterAdd p:nth-child(4),.gymFooter1:hover .gymFooterAdd1 p:nth-child(4){
+    background:  url(../images/index/arrowW.png) no-repeat 50% 50% #34c86c;
+}
+.gymFooterLeft{
+    margin-top:-50px;
+    margin-left:-10%;
+    display: block;
+    position: absolute;
+}
+.gymFooterAdd{
+    width:58.33%;
+    float: right;
+    text-align: center;
+}
+.gymFooterAdd p:nth-child(1),.gymFooterAdd1 p:nth-child(1){
+   font-size: 30px;
+   color:#313133;
+   margin-top:90px;
+}
+.gymFooterAdd p:nth-child(2),.gymFooterAdd1 p:nth-child(2){
+    width:28px;
+    height: 2px;
+    background: #313133;
+    margin:26px auto;
+ }
+.gymFooterAdd p:nth-child(3),.gymFooterAdd1 p:nth-child(3){
+    font-size: 20px;
+    color:#a1a4b2;
+}
+.gymFooterAdd p:nth-child(4),.gymFooterAdd1 p:nth-child(4){
+    margin:45px  auto 0 auto;
+    width:80px;
+    height:34px;
+    border:1px solid #dbdbdb;
+    line-height: 34px;
+    text-align: center;
+    background:  url(../images/index/arrow.png) no-repeat 50% 50%;
+}
+.gymFooterAdd p:nth-child(4) span,.gymFooterAdd1 p:nth-child(4) span{
+   width:30px;
+}
+.gymFooter1{
+    width:90%;
+    height:355px;
+    background: #f5f6f8;
+    float: left;
+    position: relative;
+    margin-bottom:100px;
+    border:3px solid #fff;
+}
+.gymFooterLeft1{
+    top:-50px;
+    right:-10%;
+    display: block;
+    position: absolute;
+}
+.gymFooterAdd1{
+    width:58.33%;
+    float: left;
+    text-align: center;
+}
+.lookMore{
+  text-align: center;
+  width:100%;
+}
+.lookMore a{
+  display: inline-block;
+  width:140px;
+  height: 48px;
+  border:1px solid #dbdbdb;
+  line-height: 48px;
+  font-size: 14px;
+  color:#333333;
+  margin-bottom:100px;
+}
+/* 智能设备 */
+.swiper-container {
+    width: 100%;
+    height: 520px;
+    margin: 20px auto;
+    background: #f5f6f8;
+}
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #f5f6f8;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+.append-buttons {
+    text-align: center;
+    margin-top: 20px;
+}
+.append-buttons a {
+    display: inline-block;
+    border: 1px solid #007aff;
+    color: #007aff;
+    text-decoration: none;
+    padding: 4px 10px;
+    border-radius: 4px;
+    margin: 0 10px;
+    font-size: 13px;
+}
+.swiperCont{
+    width:330px;
+    height: 510px;
+}
+.swiperContImg{
+    width:330px;
+    height:360px;
+    position: relative;
+    border: solid 3px #f5f6f8;
+    overflow: hidden;
+}
+.swiperCont:hover .swiperContImg{
+    border:3px solid #34c86c;
+    box-shadow: 5px 5px 10px #eaf9ef;
+    background: #fff;
+}
+.swiperCont:hover p{
+   color:#34c86c;
+}
+.swiperContImg img{
+    position: absolute;
+    margin: auto;
+    top: -9999px;
+    right: -9999px;
+    bottom: -9999px;
+    left: -9999px;
+}
+.smartName{
+    font-size: 24px;
+    color:#313133;
+    margin-top:40px;
+}
+.smartNameN{
+    font-size:16px;
+    color:#a1a4b2;
+    margin-top:24px;
+}
+.smartDevice{
+    width:100%;
+    height: 890px;
+    background: #f5f6f8;
+}
+.carousel-indicators{
+    display: none;
+}
+/* 公司动态 */
+.companyNewsTime{
+    width:18%;
+    height:100px;
+    background: #f5f6f8;
+    display: inline-block;
+    float: left;
+    text-align: right;
+    padding-right: 12px;
+}
+.companyNewsTime p:nth-child(1){
+    font-size:26px;
+    color:#313133;
+    margin:30px 0 5px 0;
+}
+.companyNewsTime p:nth-child(2){
+    font-size:14px;
+    color:#999999;
+}
+.companyNewsAds{
+    margin-left:5%;
+    width:67%;
+    height:100px;
+    float: left;
+    display: inline-block;
+}
+.companyNewsAds p:nth-child(1){
+   margin-top: 5px;
+   font-size: 24px;
+   color:#313133;
+}
+.companyNewsAds p:nth-child(2){
+   margin-top: 10px;
+   font-size: 16px;
+   color:#a1a4b2;
+}
+.companyNewsHover{
+    width:50%;
+    height:200px;
+    border:3px solid #fff;
+}
+.companyNewsHover:hover{
+    width:50%;
+    height:200px;
+    border:3px solid #34c86c;
+    box-shadow: 5px 5px 10px #eaf9ef;
+}
+.companyNewsHover:hover .companyNewsAds p:nth-child(1),.companyNewsHover:hover .companyNewsTime p:nth-child(1){
+    color:#34c86c;
+}
+.companyNewsHover:hover .companyNewsTime{
+    background: #fff;
+}
+
+.companyNewsPadding{
+    padding:45px 4%;
+}
+.lookMoreCompany a{
+    background:#34c86c;
+    border:1px solid #34c86c;
+    color:#fff;
+    margin-top: 60px;
+}
+/*智能健身房*/
+.smartGym{
+   width:100%;
+   height:200px;
+   background:  url(../images/index/smartGym.png) no-repeat;
+   background-size: 100% 100%;
+}
+.smartGym img{
+    display: block;
+    margin:0 auto;
+    padding-top: 66px;
+}
+.smartGym p{
+   width:100%;
+   text-align: center;
+   color:#fff;
+   font-size:26px;
+   letter-spacing: 30px;
+   margin-top: 30px;
+}
+/* 合作伙伴 */
+.rootPartner,.rootJoinUs{
+    max-width: 930px!important;
+    margin: 0 auto;
+}
+.companion {
+    margin-top:105px;
+    height: 55px;
+    font-size: 18px;
+    color: #4A4A4A;
+    text-align: left;
+    line-height: 55px;
+    padding-left: 38px;
+    border-bottom: 1px solid #E0E0E0;
+}
+
+.zjqc  img{
+    border: 1px solid #C8C8C8;
+}
+
+.partner .content {
+    max-width: 200px;
+    margin: 0 auto;
+    height:120px;
+    border:1px solid #dbdbdb;
+    margin-bottom:65px;
+}
+.zjqc-copy {
+    margin-top: 0px;
+    padding-bottom: 23px;
+}
+
+.item-top-dashed img{
+ margin-top:20px;
+}
+
